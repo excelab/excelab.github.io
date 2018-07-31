@@ -1,0 +1,307 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+}
+
+
+/* navbar
+ * ----------------------------------------*/
+
+.navbar {
+  background-color: #000000;
+}
+.navbar li {
+  transition: .3s background-color;
+  text-align: center;
+  background-color: transparent;
+  padding: 0rem 1rem;
+  text-decoration: none;
+  border-radius: 0.3rem;
+}
+/*.navbar li {
+  transition: .3s background-color;
+  text-align: center;
+  background-color: transparent;
+  padding: 0rem 1rem;
+  text-decoration: none;
+  border-radius: 0.3rem;
+}*/
+.navbar li:hover {
+  background-color: #CD853F;
+}
+.navbar li .nav-link{
+  color: #ECB172;
+}
+.navbar li:hover .nav-link{
+  color: #F0F8FF;
+}
+
+.navbar-nav > .active > a,
+.navbar-nav > .active > a:focus{
+  color: #F0FFF0;
+  /*border-radius: 0.3rem;
+  padding: .5rem .5rem;
+  background-color: #ECB172;
+  text-decoration: none;*/
+}
+/*
+.navbar-nav > .active > a,
+.navbar-nav > .active > a:hover,
+.navbar-nav > .active > a:focus {
+  color: #fff; 
+  background-color: #ECB172;
+  text-align: center;
+  padding: 0rem 1rem;
+  border-radius: 0.3rem;
+}
+*/
+
+.dropdown-menu {
+  background-color: #000000d0;
+}
+
+.dropdown-item {
+  color: #ECB172;
+}
+
+.dropdown-item:hover {
+  background-color: #ECB172D0;
+}
+
+.hero {
+  background-color: rgba(0,0,0,0.92);
+  text-color: white;
+}
+
+
+.top-image {
+  height: 10rem;
+  max-width: 20rem;
+}
+
+
+.outline-dask {
+  color: #ECB172;
+  background-color: transparent;
+  border-color: #ECB172;
+}
+
+.outline-dask:hover {
+  color: #212529;
+  background-color: #ECB172;
+  border-color: #ECB172;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 3rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+.featurette-subheading {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  display: block;
+  font-weight: 600;
+  margin: 1.2rem 0;
+}
+
+/* Supporters
+ * ----------------------------*/
+
+.supporters {
+  text-align: center;
+}
+
+.supporter {
+  margin: 0.5rem 0;
+  width: 100%;
+}
+
+.supporter img{
+  max-height: 100%;
+  max-width: 85%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+
+}
+
+.news {
+  padding: 10px;
+  background-color: #fef4e9;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+.news li {
+  margin-bottom:10px;
+}
+.newslist {
+  list-style: none;
+  padding-left:0;
+}
+.newsdate {
+  font-weight: bold;
+  color: #4682B4;
+  padding-right: 6px;
+  font-size: 14px;
+}
+
+.pub {
+  padding-left: 0px;
+  margin-top: 20px;
+  margin-left: 0px;
+  margin-bottom: 20px;
+}
+
+.pub img {
+  float: left;
+  opacity: 0.7;
+  transition: 0.2s;
+  -moz-transition: 0.2s;
+  height: 125px;
+  width: 100px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.pub img:hover {
+  opacity: 1;
+}
+
+/*
+.pub p {
+  border-left: 1px solid #007697;
+  margin-left: 120px;
+  height: 125px;
+  margin-top: 0px;
+}
+*/
+
+.pub p {
+  margin-left: 120px;
+  height: 125px;
+  margin-top: 0px;
+}
+
+/* For pub titles that have no links */
+.pub-title {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.pub-venue {
+  font-style: italic;
+}
+
+.pub-award {
+  font-weight: bold;
+  color: #830D2C;
+}
+
+a {
+  color: rgba(0, 0, 0, 0.6);
+  text-decoration: none;
+  transition:color 0.2s;
+  -moz-transition:color 0.2s;
+}
+
+a:hover {
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.paper-title {
+  font-style: italic;
+}
+
+/*
+p {
+  padding-left: 20px;
+}
+*/
+
+.people {
+}
+.person {
+  display: block;
+  float: left;
+  margin-right: 30px;
+  width: 180px;
+  height: 270px;
+}
+.person .img {
+  width: 180px;
+  height: 180px;
+}
+.person-name {
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+  text-align: center;
+  font-size: 14pt;
+  margin-top: 15px;
+}
+.person-desc {
+  font-family: 'Raleway', sans-serif;
+  width: 100%;
+  text-align: center;
+  color: rgb(50,50,50);
+  margin-top: 2px;
+}
+
+/*
+header {
+  background-image: url(images/logo.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-position: 0px 19px;
+  background-size: 160px 160px;
+  height: 180px;
+  font-family: 'Rokkitt', serif;
+  padding-left: 170px;
+}
+*/
+
+
+
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 3rem;
+  }
+}
+
