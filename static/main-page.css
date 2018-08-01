@@ -174,6 +174,154 @@ body {
   font-size: 14px;
 }
 
+/*
+.pub-item {
+    position: relative;
+    border-bottom: 1px solid #dedede;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+*/
+.pub-item {
+    position: relative;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+.pub-item .elem-wrapper {
+    float: left;
+}
+.pub-item .content-wrapper {
+    position: relative;
+}
+.pub-item .content-wrapper >a {
+    display: block;
+    text-decoration: none;
+}
+.pub-item .content-wrapper >a:hover .title, .pub-item .content-wrapper >a:focus .title {
+    color: #333;
+}
+.pub-item .pub-thumbnail {
+    border: 1px solid #979797;
+}
+.pub-item .title {
+    font-size: 16px;
+    color: #636363;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-weight: 600;
+}
+.pub-item .title a {
+    color: #636363;
+}
+.pub-item .title a:hover, .pub-item .title a:focus {
+    color: #333;
+}
+.pub-item .description {
+    font-size: 14px;
+}
+.pub-item .description p {
+    line-height: 18px;
+}
+.pub-item .description ul.meta {
+    list-style: none;
+    padding: 0;
+}
+.pub-item .description ul.meta li {
+    margin-bottom: 3px;
+}
+.pub-item .description ul.meta li i {
+    padding-right: 5px;
+    position: relative;
+    top: 1px;
+}
+.pub-item .description .citation, .pub-item .description .citation a {
+    font-style: italic;
+    color: #9d9d9d;
+    max-width: 70%;
+}
+.pub-item .description .citation {
+    margin-bottom: 20px;
+}
+.pub-item .description .citation a {}
+.pub-item .description .citation a:hover, .pub-item .description .citation a:focus {
+    color: #FF3366;
+}
+.dark-wrapper .pub-item {
+    border-bottom-color: #4b4b4b;
+}
+.dark-wrapper .pub-item .title, .dark-wrapper .pub-item .title a {
+    color: #fff;
+}
+.dark-wrapper .pub-item .pub-thumbnail {
+    border-color: #4b4b4b;
+}
+.dark-wrapper .pub-item.with-icon .elem-wrapper i {
+    border-color: #4b4b4b;
+    background-color: #3a3a3a;
+}
+.pub-item.with-icon .elem-wrapper i {
+    background-color: #fff;
+    color: #bbb;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    border: 1px;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #bbb;
+    line-height: 42px;
+    display: block;
+    transition: all 0.25s ease;
+}
+.pub-item.with-icon .content-wrapper {
+    margin-left: 70px;
+}
+.pub-item.with-thumb img {
+    width: 85%;
+    height: auto;
+}
+.pub-item.with-thumb .elem-wrapper {
+    width: 100px;
+}
+.pub-item.with-thumb .content-wrapper {
+    margin-left: 100px;
+}
+.pub-item.with-thumb.right .elem-wrapper {
+    float: right;
+}
+.pub-item.with-thumb.right .content-wrapper {
+    margin-left: 0px;
+    margin-right: 70px;
+}
+.pub-item.with-thumb.large .elem-wrapper {
+    width: 85px;
+}
+.pub-item.with-thumb.large .content-wrapper {
+    margin-left: 102px;
+}
+.pub-item.with-thumb.large.right .elem-wrapper {
+    float: right;
+}
+.pub-item.with-thumb.large.right .content-wrapper {
+    margin-left: 0px;
+    margin-right: 102px;
+}
+.pub-item.with-thumb.xlarge .elem-wrapper {
+    width: 105px;
+}
+.pub-item.with-thumb.xlarge .content-wrapper {
+    margin-left: 145px;
+}
+.pub-item.with-thumb.xlarge.right .elem-wrapper {
+    float: right;
+}
+.pub-item.with-thumb.xlarge.right .content-wrapper {
+    margin-left: 0px;
+    margin-right: 145px;
+}
+
+/*
 .pub {
   padding-left: 0px;
   margin-top: 20px;
@@ -194,8 +342,6 @@ body {
 .pub img:hover {
   opacity: 1;
 }
-
-/*
 .pub p {
   border-left: 1px solid #007697;
   margin-left: 120px;
@@ -203,14 +349,15 @@ body {
   margin-top: 0px;
 }
 */
-
+/*
 .pub p {
   margin-left: 120px;
   height: 130px;
   margin-top: 0px;
 }
-
+*/
 /* For pub titles that have no links */
+/*
 .pub-title {
   color: rgba(0, 0, 0, 0.6);
 }
@@ -238,6 +385,7 @@ a:hover {
 .paper-title {
   font-style: italic;
 }
+*/
 
 /*
 p {
